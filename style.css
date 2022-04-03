@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #1B1B1B;
+}
+html{
+    scroll-behavior: smooth;
+}
+#preload{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    z-index: 99;
+    background: url("gifi.gif") #fff ;
+    background-repeat: no-repeat;
+    background-position: center;
+    left: 0;
+    top: 0;
+}
+
+body{ 
+    width: 80%;
+    margin: 0 auto;
+}
+.trougao{
+    width: 0;
+    height: 0;
+    border-top: 100px solid #c40233;
+    border-right: 100px solid transparent;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+.trougao2{
+    width: 0;
+    height: 0;
+    border-bottom: 100px solid #c40233;
+    border-left: 100px solid transparent;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    height: 20vh;
+}
+header h1{
+    color: #c40233;
+    font-size: 6em;
+    cursor: pointer;
+}
+nav{
+    margin-top: 35px;
+}
+ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 20px;
+}
+nav a{
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+nav a:hover{
+    color: #c40233;
+}
+#content{
+    margin-top: 100px;
+}
+.first-div{
+    color: white;
+    display: flex;
+    margin-top: 200px;
+    justify-content: space-between;
+}
+.first-div h1{
+    font-size: 5vw;
+}
+.first-div .website{
+    line-height: 50px;
+    position: relative;
+    top: -50px;
+    padding: 30px 100px;
+    border-radius: 20px;
+    background-color: #c40233;
+    text-align: center;
+}
+.website p, .website h2{
+    background-color: #c40233;
+}
+.first-div button{
+    padding: 15px 40px;
+    background-color: #fff;
+    border: none;
+    border-radius: 300px;
+    cursor: pointer;
+    color: black;
+}
+.second{ 
+    margin-top: 200px;
+    text-align: center;
+
+}
+.three h2, .three p{
+    background-color: #fff;
+}
+.three{
+    width: 300px;
+    background-color: #fff;
+    margin: 30px;
+    line-height: 40px;
+    padding: 20px;
+    border-radius: 0px 0px 30px 0px;
+    display: inline-block;
+    text-align: ce;
+
+}.three button{
+    padding: 15px 30px;
+    border-radius: 300px;
+    background-color: #c40233;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s ease;
+    color: white;
+}.three button:hover{
+    padding: 15px 40px;
+}
+#three1{
+    background-color: white;
+}
+#aboutus{
+    margin-top: 200px;
+    color: white;
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+}
+.about{
+    line-height: 100px;
+    margin-top: 150px;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+footer{
+    color :white;
+    margin-top: 200px;
+}
+div, ul{
+    animation: name 0.3s ease-in-out alternate;
+}
+svg{
+    display: none;
+}
+.abs{
+    width: 100%;
+    position: fixed;
+    height: 100vh;
+    z-index: 99;
+    background-color: black;
+    top: 0;
+    left: 0;
+    display: none;
+}
+.abs ul{
+    background-color: black;
+    text-align: center;
+    line-height: 50px;
+    font-size: 3em;
+    font-family: 'Neonderthaw', cursive;
+    position: relative;
+    top: 25vh;
+}
+.abs ul li {
+    background-color: black;
+    display: block;
+}
+.abs ul li a{
+    background-color: black;
+    text-decoration: none;
+    color: #fff;
+}
+.abs button{
+    padding: 20px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 2em;
+    float: right;
+}
+.our-work{
+    position: absolute;
+    width: 100%;
+    height: 200vh;
+    left: 0;
+    top: 0;
+    z-index: 99;
+    background-color: #1B1B1B;
+    text-align: center;
+}
+.our-work h1{
+    font-size: 6vw;
+    font-family: 'Inconsolata', monospace;
+    color: #fff;
+    margin-top: 10vh;
+}
+.our-work button{
+    cursor: pointer;
+    padding: 20px 60px;
+    color: white;
+    font-size: 3em;
+    border: none;
+    border-radius: 1000px;
+}
+.buildweb h1 {
+    font-size: 25px;
+}
+.buildweb{
+    color: white;
+    line-height: 50px;
+}
+.logocreate h1{
+    font-size: 25px;
+}
+.logocreate {
+    color: white;
+    line-height: 50px;
+    margin-top: 150px;
+}
+.wallpape h1{
+    font-size: 25px;
+}
+.wallpape{
+    margin-top: 150px;
+    color: white;
+    line-height: 50px;
+}
+.online-help h1{
+    color: white;
+    font-size: 25px;
+}
+.online-help{
+    color: white;
+    line-height: 40px;
+    margin-top: 150px;
+}
+.our-work{
+    display: none;
+}
+@keyframes name{
+    0%{
+        opacity: 0%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+@media(max-width: 1000px){
+    nav{
+        display: none;
+    }
+    svg{
+        display: block;
+        margin-top: 30px;
+        transform: scale(1.7);
+        margin-right: 20px;
+    }
+    .first-div{
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .first-div h1{
+        font-size: 4em;
+    }
+    .website{
+        margin: 0 auto;
+        margin-top: 100px;
+        width: 95%;
+
+    }
+    .trougao, .trougao2{
+        display: none;
+    }
+    
+}
+@media(max-width:470px){
+    body{
+        width: 95%;
+    }
+    .first-div .website{
+        line-height: 40px;
+        padding: 30px;
+    }
+}
